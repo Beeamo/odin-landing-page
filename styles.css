@@ -3,7 +3,8 @@ body {
     flex-direction: column;
     margin: 0;
     flex: 1;
-    min-height: 150vh
+    min-height: 150vh;
+    font-family: roberto;
 }
 
 .header {
@@ -76,4 +77,31 @@ a {
     min-height: 30px;
     min-width: 100px;
     border-style: none;
+}
+
+.bold {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 100px;
+}
+
+img {
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+.info {
+    text-align: center;
+    min-height: 450px;
+}
+
+.pictures {
+    margin: 0px 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image-container {
+    font-size: 23px;
+    color: gray;
 }
