@@ -80,8 +80,9 @@ a {
 }
 
 .bold {
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
     margin-bottom: 100px;
 }
 
@@ -104,4 +105,32 @@ img {
 .image-container {
     font-size: 23px;
     color: gray;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    min-height: 450px;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+    margin: 0px 200px;
+}
+
+.quote-author {
+    font-size: 25px;
+    font-weight: 900px;
+    justify-self: flex-end;
+    margin-right: 200px;
 }
